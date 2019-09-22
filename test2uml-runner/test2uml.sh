@@ -1,0 +1,1 @@
+java -cp /Users/nishant/git/test2uml-runner/target/test2uml-runner-1.0-SNAPSHOT.jar com.saip.runner.Main $1 $2 $3 $4 $5 $6
