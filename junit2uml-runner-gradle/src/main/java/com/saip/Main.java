@@ -75,6 +75,22 @@ public class Main {
         processSequenceCommands(projectRootValue, testMethodValue, outputValue);
     }
 
+    private static void runGradleScript1(String projectRootValue, String testMethodValue, String outputValue) throws IOException {
+        StringBuilder result = new StringBuilder();
+        Files.createDirectories(Paths.get(outputValue));
+        result.append("rm -rf {{path}}/build\n");
+        result.append("{{path}}/gradlew -p {{path}} compileAspect\n");
+        result.append("{{path}}/gradlew -p {{path}} compileTestAspect\n");
+        result.append("{{path}}/gradlew -p {{path}} test --tests *{{test}}*\n");
+        result.append("java -classpath \"/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/UmlGraph"
+                + ".jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/tools.jar\" org.umlgraph.doclet.UmlGraph -private "
+                + "-output - {{path}}/class.java -ranksep 1 | /usr/local/bin/dot -Tpng -o{{output}}/umlgraph.png\n");
+        result.append("rm {{path}}/class.java\n");
+        String commands = result.toString().replace("{{path}}", projectRootValue).replace("{{test}}", testMethodValue).replace("{{output}}", outputValue);
+        processCommands(commands.toString().split("\n"));
+        processSequenceCommands(projectRootValue, testMethodValue, outputValue);
+    }
+
     private static void runGradleScript(String projectRootValue, String testMethodValue, String outputValue, String umlGraphPath, String dotPath, String sequenceJarPath) throws IOException {
         StringBuilder result = new StringBuilder();
         Files.createDirectories(Paths.get(outputValue));
@@ -107,22 +123,6 @@ public class Main {
         }
         String resolvedCmd = cmd.toString().replace("{{output}}", outputValue).replace("{{sequenceJarPath}}", sequenceJarPath);
         processCommands(resolvedCmd.split("\n"));
-    }
-
-    private static void runGradleScript1(String projectRootValue, String testMethodValue, String outputValue) throws IOException {
-        StringBuilder result = new StringBuilder();
-        Files.createDirectories(Paths.get(outputValue));
-        result.append("rm -rf {{path}}/build\n");
-        result.append("{{path}}/gradlew -p {{path}} compileAspect\n");
-        result.append("{{path}}/gradlew -p {{path}} compileTestAspect\n");
-        result.append("{{path}}/gradlew -p {{path}} test --tests *{{test}}*\n");
-        result.append("java -classpath \"/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/UmlGraph"
-                + ".jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home/lib/tools.jar\" org.umlgraph.doclet.UmlGraph -private "
-                + "-output - {{path}}/class.java -ranksep 1 | /usr/local/bin/dot -Tpng -o{{output}}/umlgraph.png\n");
-        result.append("rm {{path}}/class.java\n");
-        String commands = result.toString().replace("{{path}}", projectRootValue).replace("{{test}}", testMethodValue).replace("{{output}}", outputValue);
-        processCommands(commands.toString().split("\n"));
-        processSequenceCommands(projectRootValue, testMethodValue, outputValue);
     }
 
     private static void processSequenceCommands1(String projectRootValue, String testMethodValue, String outputValue) {
