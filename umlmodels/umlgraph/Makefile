@@ -5,6 +5,7 @@ clean:
 install:
 	open https://www.spinellis.gr/umlgraph/
 	open https://www.spinellis.gr/umlgraph/doc/indexw.html
+	open https://www.spinellis.gr/umlgraph/doc/install.html
 	open https://www.imagemagick.org/script/download.php
 	open https://www.graphviz.org/
 	open https://brewformulas.org/Imagemagick
