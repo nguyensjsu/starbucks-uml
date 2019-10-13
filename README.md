@@ -7,11 +7,11 @@ Starbucks UML Generator
 2. Copy the sequence folder to any location in the machine.
 3. Install graphviz (brew install graphviz).
 4. Modify the junit2umlConfig.conf file variables as follows, 
- -> outputLocation - The desired output path for your UML and Sequence diagrams.
- -> projectRootPath - The root path of your Starbucks project
- -> umlGraphPath - The path of the java lib folder in your machine. This is where the UmlGraph jar should be present. (This is included in the git repo in the uml-graph folder.)
- -> sequenceJarPath - The path where sequence-10.jar file is present. (This is included in the git repo in the sequence folder.)
- -> dotPath - This is the path containing the dot executable (for ex: "/usr/local/bin/dot")
+ - outputLocation - The desired output path for your UML and Sequence diagrams.
+ - projectRootPath - The root path of your Starbucks project
+ - umlGraphPath - The path of the java lib folder in your machine. This is where the UmlGraph jar should be present. (This is included in the git repo in the uml-graph folder.)
+ - sequenceJarPath - The path where sequence-10.jar file is present. (This is included in the git repo in the sequence folder.)
+ - dotPath - This is the path containing the dot executable (for ex: "/usr/local/bin/dot")
 
 ## An example config file looks like this,
 
