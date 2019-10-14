@@ -1,11 +1,13 @@
 buildscript {
     repositories {
+        jcenter()
         maven {
             url "https://plugins.gradle.org/m2/"
         }
     }
     dependencies {
         classpath "gradle.plugin.aspectj:gradle-aspectj:0.1.6"
+        classpath 'com.github.jengelman.gradle.plugins:shadow:4.0.4'
         //classpath "gradle.plugin.aspectj:plugin:0.1.1"
         //classpath "gradle.plugin.aspectj:gradle-aspectj:0.1.1"
     }
@@ -14,6 +16,8 @@ buildscript {
 plugins {
     id 'java'
 }
+
+apply plugin: 'com.github.johnrengelman.shadow'
 
 group 'com.saip'
 version '1.0-SNAPSHOT'
