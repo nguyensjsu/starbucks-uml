@@ -76,11 +76,11 @@ dependencies {
         additionalAjcArgs = ['encoding': 'UTF-8', 'source': '1.8', 'target': '1.8']
     }
 
-    ajInpath files("/Users/nishant/git/starbucks-git/starbucks-uml/libraries/junit2uml-1.0-SNAPSHOT-all.jar"){
+    ajInpath files("/Users/nishant/git/starbucks-git/starbucks-uml/uml-script/uml-jars/junit2uml.jar"){
 
     }
 
-    testAjInpath files("/Users/nishant/git/starbucks-git/starbucks-uml/libraries/junit2uml-1.0-SNAPSHOT-all.jar") {
+    testAjInpath files("/Users/nishant/git/starbucks-git/starbucks-uml/uml-script/uml-jars/junit2uml.jar") {
 
     }
 }
