@@ -39,6 +39,7 @@ public aspect AnnotationAspect extends AbstractAspectBase {
 		if (!thisJoinPoint.getKind().equals("method-call"))
 			return;
 		if (!testStarted) return;
+		if (thisJoinPoint.getThis() == null) return;
 		Class instance = thisJoinPoint.getThis().getClass();
 		Class target = thisJoinPoint.getTarget() != null ? thisJoinPoint.getTarget().getClass() : thisJoinPoint.getStaticPart().getSignature()
 				.getDeclaringType();
@@ -60,12 +61,14 @@ public aspect AnnotationAspect extends AbstractAspectBase {
 	}
 
 	after() : allMethodCalls() {
+		if (thisJoinPoint.getThis() == null) return;
 		JoinPoint jp = ((JoinPoint)thisJoinPoint);
 		Object instance = jp.getThis();
 	}
 
 	after() returning(Object r): allMethodCalls() {
 		if (!testStarted) return;
+		if (thisJoinPoint.getThis() == null) return;
 		Class instance = thisJoinPoint.getThis().getClass();
 		Class target = thisJoinPoint.getTarget() != null ? thisJoinPoint.getTarget().getClass() : thisJoinPoint.getStaticPart().getSignature()
 				.getDeclaringType();
@@ -94,12 +97,12 @@ public aspect AnnotationAspect extends AbstractAspectBase {
 			addInterfaces();
 			addArgumentTypes();
 			String classDiagramText = classDiagramGenerator.generateClassDiagramText(classInfos);
-			System.out.println(classDiagramText);
 			writeToFile("class.java", classDiagramText);
 		}));
 	}
 
 	after() : testMethod() {
+		if (thisJoinPoint.getThis() == null) return;
 		String className = thisJoinPoint.getThis().getClass().getSimpleName();
 		String testName = thisJoinPoint.getSignature().getName();
 		String sequenceDiagramText1 = greenSnarkSequenceDiagramGenerator.generateSequenceDiagram(main);

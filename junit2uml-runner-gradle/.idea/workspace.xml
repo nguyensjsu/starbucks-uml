@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4623c17f-635d-4d69-9251-767ae6848788" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/taskHistory/taskHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.idea/modules/com.saip.junit2uml.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.idea/modules/com.saip.junit2uml.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.idea/modules/com.saip.junit2uml.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.idea/modules/com.saip.junit2uml.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-gradle/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-gradle/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2umlConfig.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2umlConfig.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/.idea/libraries/Gradle__com_saip_test2uml_1_0_SNAPSHOT.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2uml.sh" beforeDir="false" afterPath="$PROJECT_DIR$/test2uml.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starbucks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/build.gradle" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -133,7 +116,9 @@
       <workItem from="1570944986521" duration="670000" />
       <workItem from="1570945687074" duration="3554000" />
       <workItem from="1571020692851" duration="7000" />
-      <workItem from="1571020712488" duration="840000" />
+      <workItem from="1571020712488" duration="2197000" />
+      <workItem from="1571412652098" duration="599000" />
+      <workItem from="1571517246068" duration="16000" />
     </task>
     <servers />
   </component>

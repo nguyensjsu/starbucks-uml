@@ -8,21 +8,141 @@
       <change beforePath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.10.3/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.saip.junit2uml.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.saip.junit2uml.main.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules/com.saip.junit2uml.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/com.saip.junit2uml.test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__com_thoughtworks_paranamer_paranamer_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__junit_junit_4_12.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjrt_1_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_aspectj_aspectjweaver_1_8_5.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2uml-runner-gradle/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../junit2umlConfig.conf" beforeDir="false" afterPath="$PROJECT_DIR$/../junit2umlConfig.conf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/.idea/libraries/Gradle__com_saip_test2uml_1_0_SNAPSHOT.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/AbstractAspectBase.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/AnnotationAspect.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/ClassDiagramGenerator$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/ClassDiagramGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/GreenSnarkSequenceDiagramGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/UmlGraphSequenceDiagramGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/model/ClassInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/model/FieldInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/model/MethodInfo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/model/SequenceStep.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/com/saip/model/SequenceStep2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/libs/junit2uml-1.0-SNAPSHOT-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/saip/AnnotationAspect.aj" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/saip/AnnotationAspect.aj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/javaCompile/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/taskHistory/taskHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/4.10/taskHistory/taskHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.gradle/vcs-1/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/classes/java/main/com/saip/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/distributions/junit2uml-runner-gradle-1.0-SNAPSHOT.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/distributions/junit2uml-runner-gradle-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/distributions/junit2uml-runner-gradle-shadow-1.0-SNAPSHOT.tar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/distributions/junit2uml-runner-gradle-shadow-1.0-SNAPSHOT.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/libs/junit2uml-runner-gradle-1.0-SNAPSHOT-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/libs/junit2uml-runner-gradle-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/scripts/junit2uml-runner-gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/scripts/junit2uml-runner-gradle.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/scriptsShadow/junit2uml-runner-gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/scriptsShadow/junit2uml-runner-gradle.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/tmp/jar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/build/tmp/shadowJar/MANIFEST.MF" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/gradle/wrapper/gradle-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/gradlew" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/gradlew.bat" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/settings.gradle" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/src/main/java/com/saip/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2uml-runner-gradle/test2uml.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../junit2umlConfig.conf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/junit2uml-1.0-SNAPSHOT-all.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../libraries/junit2uml-runner.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/commons-logging-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/jh.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/jhall-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/jlfgr-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/jlfgr-1_0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/log4j.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/sequence-10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sequence/sequence.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../starbucks/.idea/libraries/Gradle__junit_junit_4_13_beta_3.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.main.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.main.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/modules/starbucks.test.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../starbucks/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../starbucks/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../starbucks/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uml-graph/UmlGraph.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uml-graph/tools.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../uml-script/uml-jars/junit2uml.jar" beforeDir="false" afterPath="$PROJECT_DIR$/../uml-script/uml-jars/junit2uml.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/asta/ZREADME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/asta/gumball.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/asta/hellouml.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/asta/patterns.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/asta/starbucks.asta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/ZREADME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/blackbox.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/commons-logging-1.0.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/create_account.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/diagram.preferences" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/example.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/images/diagram1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/images/diagram2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/jhall-2.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/jlfgr-1.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/sequence-10.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/sequence/trace.seq" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/ZREADME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/gumball/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/gumball/gumball.tuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/gumball/gumball.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/gumball/gumballstates.tuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/gumball/gumballstates.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/gumball/mdd.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/.project" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/hellouml.tuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/hellouml.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/mdd.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/textuml1.tuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/textuml1.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/textuml2.tuml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/textuml/hellouml/textuml2.uml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/ZREADME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/sequence.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph10.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph11.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph12.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph5.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph6.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph7.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph8.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umlgraph/umlgraph9.pic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umple/Makefile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umple/ZREADME.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umple/gumball.ump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umple/hellouml.ump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umple/statemachine1.ump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umple/statemachine2.ump" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/umple/umple.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../umlmodels/zreadme.md" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,12 +158,26 @@
   <component name="ExternalProjectsManager">
     <system id="GRADLE">
       <state>
+        <task path="$PROJECT_DIR$">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="junit2uml" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="junit2uml" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="junit2uml" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="shadow" type="c8890929:TasksNode$1" />
               </path>
             </expand>
             <select />
@@ -63,6 +197,12 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1570259304782" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/build.gradle" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.excludes" />
@@ -80,6 +220,32 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration name="junit2uml-gradle [shadowJar]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="shadowJar" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <GradleScriptDebugEnabled>true</GradleScriptDebugEnabled>
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Gradle.junit2uml-gradle [shadowJar]" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -92,7 +258,13 @@
       <updated>1570253799847</updated>
       <workItem from="1570253805001" duration="2890000" />
       <workItem from="1570995169942" duration="107000" />
-      <workItem from="1571020727327" duration="801000" />
+      <workItem from="1571020727327" duration="1542000" />
+      <workItem from="1571412653358" duration="600000" />
+      <workItem from="1571517247224" duration="9000" />
+      <workItem from="1573350066387" duration="1279000" />
+      <workItem from="1573360676640" duration="1568000" />
+      <workItem from="1573362256105" duration="161000" />
+      <workItem from="1573362445140" duration="599000" />
     </task>
     <servers />
   </component>
