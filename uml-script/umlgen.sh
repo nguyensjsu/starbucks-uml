@@ -17,6 +17,10 @@ TEST_TO_RUN=$2
 # Location for all output diagrams
 OUTPUT_LOCATION=$3
 
+echo "ROOT: $PROJECT_ROOT"
+echo "TEST: $TEST_TO_RUN"
+echo "OUTPUT: $OUTPUT_LOCATION"
+
 # Create output directory if not exists
 mkdir -p $OUTPUT_LOCATION
 
