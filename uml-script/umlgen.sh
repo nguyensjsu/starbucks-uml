@@ -43,7 +43,7 @@ DOT_PATH="$(which dot)"
 # Generating the class diagram
 java -classpath "$JAR_PATH/UmlGraph.jar:$JAR_PATH/tools.jar" org.umlgraph.doclet.UmlGraph -private -output - $PROJECT_ROOT/class.java -ranksep 1 | $DOT_PATH -Tpng -o$OUTPUT_LOCATION/class_diagram.png
 # Removing the intermediate file once diagram is generated
-rm $PROJECT_ROOT/class.java
+#rm $PROJECT_ROOT/class.java
 
 REPLACER=".png"
 # Iterating over all ".seq" files in the PROJECT_ROOT.
@@ -54,7 +54,7 @@ for filename in $PROJECT_ROOT/*.seq; do
   # moving the png file to the output location provided by the user
   mv ${filename/.seq/$REPLACER} $OUTPUT_LOCATION
   # removing the intermediate ".seq" file after diagram is generated
-  rm $filename
+  #rm $filename
 done
 
 exit 0
