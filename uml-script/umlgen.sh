@@ -1,8 +1,10 @@
 #!/bin/sh
 CURRENT_DIR=${PWD}
+echo "CURRENT_DIR = $CURRENT_DIR"
 # All the jars required for generating uml diagrams and sequence diagrams arguments
 # are present in this location
 JAR_PATH=$CURRENT_DIR/uml-jars
+echo "JAR_PATH=$JAR_PATH"
 
 if [ "$#" -lt 3 ]
 then
@@ -44,6 +46,7 @@ DOT_PATH="$(which dot)"
 java -classpath "$JAR_PATH/UmlGraph.jar:$JAR_PATH/tools.jar" org.umlgraph.doclet.UmlGraph -private -output - $PROJECT_ROOT/class.java -ranksep 1 | $DOT_PATH -Tpng -o$OUTPUT_LOCATION/class_diagram.png
 # Removing the intermediate file once diagram is generated
 #rm $PROJECT_ROOT/class.java
+mv $PROJECT_ROOT/class.java $OUTPUT_LOCATION
 
 REPLACER=".png"
 # Iterating over all ".seq" files in the PROJECT_ROOT.
@@ -55,6 +58,8 @@ for filename in $PROJECT_ROOT/*.seq; do
   mv ${filename/.seq/$REPLACER} $OUTPUT_LOCATION
   # removing the intermediate ".seq" file after diagram is generated
   #rm $filename
+	mv $filename  $OUTPUT_LOCATION
 done
+
 
 exit 0
